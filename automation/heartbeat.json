@@ -1,0 +1,20 @@
+{
+  "status": "up",
+  "timestamp": "2024-10-27T10:30:00Z",
+  "service": "auth-gateway",
+  "version": "1.2.3",
+  "dependencies": {
+    "database": {
+      "status": "up",
+      "responseTime": 0.025
+    },
+    "cache": {
+      "status": "up",
+      "responseTime": 0.008
+    }
+  },
+  "metrics": {
+    "requestsPerMinute": 120,
+    "averageLatency": 0.15
+  }
+}
